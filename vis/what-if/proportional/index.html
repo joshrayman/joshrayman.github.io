@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style-sq.css">
+<body>
+    <div class="container">
+        <div id="intro">
+            <div id="right">
+                <div id="map"></div>
+                <h4>2016 Election Result</h4>
+                <div id="actual-result"></div>
+
+                <h4>Electoral College votes distributed proportionally</h4>
+                <div id="proportional"></div>
+
+                <h4>Proportional Vote with threshold votes distrbuted winner takes all</h4>
+                <div id="prop-wta"></div>
+            </div>
+            
+            <h3>What If: The US Electoral College system was proportional?</h3>
+
+            <p>US Presidential elections aren’t decided by the popular vote, but by an Electoral College. Each state acts as an individual presidential race, and apportions EC votes on a winner-takes-it-all system. (Note: Maine and Nebraska behave slightly differently)
+            </p><p>
+            This winner-takes-it-all system is one of the reasons there are swing states, and safe states.
+</p><p>
+            Swing states - the states in which the vote will be close, and often changes sides from Republican to Democratic - become the focal point of the US presidential race, and often these states are decided on narrow margins, and are the states that determine if a candidate reaches the 270 needed to win the EC or not.
+</p><p>
+            In a system like this, voters in safe states - states in which one party, Democratic or Republican, is likely or nearly certain to win - often feel like their voices aren’t heard: especially if they vote for the minority party in their state. California and Texas are examples of safe states for the Democrats and Republicans respectively.
+</p><p>
+            In this ‘What If’ scenario, the percentage vote of each state is taken, and EC votes are instead distributed proportionally.
+</p><p>
+            Using these raw numbers leads to more votes for Clinton, but neither candidate reached the 270 EC votes needed to win, because third party candidates gained enough of the popular vote to take 29 EC votes nationwide. In all but a few states they didn’t net a large enough percentage of the popular vote to take a whole EC vote, but Gary Johnson for the Libertarians, Jill Stein for the Greens and Independent Evan McMullin collectively took a handful of votes.
+</p><p>
+            As an extension of this ‘What If’ scenario, a vote system that combined the proportional vote and winner-takes-it-all systems brings the EC vote totals closer to there being a winner: Clinton with 268, Trump with 265 and third-party candidates with 5.
+</p><p>
+            Under current rules, if no candidate reaches the 270 needed to win, the top three EC vote winners are put forward to the House of Representatives for a vote to determine who becomes President. In this situation, Clinton, Trump and Johnson would have been put forward. However, if the USA did adopt a different electoral model, these rules might change entirely.
+</p><p>
+            If nothing else, this theoretical scenario shows how close the race was in many states. Under the proportional system a number of states would give the same number of EC votes to Clinton and Trump (these states are highlighted in yellow below). This shows that with a winner-takes-it-all electoral system the outcome of the election can be determined by a relatively small number of votes in key states.
+</p>
+            <p>
+            <strong>Data compiled from official sources by</strong>: David Wasserman @Redistrict, Cook Political Report @CookPolitical,
+            list of electoral college votes by state: http://state.1keydata.com/state-electoral-votes.php
+            </p>
+            <p><strong>Words and Viz</strong>: Josh Rayman @joshrayman. Additional words/editing: James Galley @jagalley.
+        </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="container">
+        <button onclick="usViz.changeData('res')">Actual Result</button>
+        <button onclick="usViz.changeData('prop')">Proportional</button>
+        <button onclick="usViz.changeData('thres')">Threshold</button>
+        <span class="button-mock">
+            Outline - 2016 winner |
+            Squares - EC proportional votes | 
+            Yellow highlight: DEM/REP equal
+        </span>
+        <div id="by-state"></div>
+    </div>
+
+<script src="d3.v4.js" charset="utf-8"></script>
+<script src="viz.js"></script>

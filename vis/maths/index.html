@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+html {
+    background: #000;
+    color: #fff;
+}
+
+svg { float: left; }
+
+svg path {
+    stroke-width: 1px;
+    stroke: #99cdff;
+}
+
+svg path:nth-of-type(2n) {
+    stroke: #EAC4D5;
+}
+
+svg path:nth-of-type(3n) {
+    stroke: #947eb0;
+}
+
+svg path:nth-of-type(4n) {
+    stroke: #a3a5c3;
+}
+</style>
+<body>
+    <svg id="one"></svg>
+    <!--<svg id="two"></svg>-->
+</body>
+<script src="../d3.v4.js"></script>
+<script>
+    var data = [];
+    var data2 = [];
+
+    var total = window.innerWidth / 2;
+    var multi = 24;
+
+    for(var i = 0; i < (total / multi); i++) {
+        var j = i * multi;
+        var k = (i + 1) * multi;
+        data.push([[0, total - k], [total - j, total]])
+        data2.push([[j, total], [total, total - k]])
+    }
+
+// 0, 200; 200, 190
+// 0, 190; 200, 180
+
+var width = total;
+var height = total;
+
+// append the svg obgect to the body of the page
+// appends a 'group' element to 'svg'
+// moves the 'group' element to the top left margin
+var svg = d3.select("svg#one")
+    .attr("width", width)
+    .attr("height", height)
+  .append("g");
+
+// Add the valueline path.
+svg.selectAll("path")
+    .data(data)
+    .enter()
+    .append("path")
+    .attr("class", "line")
+    .attr("d", function(d) { return "M" + d[0][0] + "," + d[0][1] + "L" + d[1][0] + "," + d[1][1] });
+
+var svg = d3.select("svg#two")
+    .attr("width", width)
+    .attr("height", height)
+  .append("g");
+
+// Add the valueline path.
+svg.selectAll("path")
+    .data(data2)
+    .enter()
+    .append("path")
+    .attr("class", "line")
+    .attr("d", function(d) { return "M" + d[0][0] + "," + d[0][1] + "L" + d[1][0] + "," + d[1][1] });
+
+
+</script>

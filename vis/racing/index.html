@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="../d3.v4.js"></script>
+        <style>
+            body {
+            font: 10px sans-serif;
+            position: relative;
+            background: #000;
+            }
+
+            body, text {
+                color: #fff;
+                fill: #fff;            
+            }
+
+            #chart {
+            width: 960px;
+            height: 500px;
+            background: #000;
+            }
+
+            .line {
+            fill: none;
+            stroke-width: 2px;
+            }
+    
+            path.domain,
+            g.tick line {
+                stroke: #fff;
+            }
+
+        </style>
+    </head>
+    <body>
+        <section class="content-wrapper">
+            <section class="content-header">
+                <h1>Lap Chart (gap to leader)</h1>
+                <p>A visual of a selection of drivers (noted by their initials) from one of the 
+                    Donington Park (National layout) races this season. Always held the belief my pace
+                    deteriorates over the course of the 15 minute race, and thought this would
+                    be a way to visualise whether that is accurate or not. In this particular race
+                    I struggled with understeer and went off track on Lap 7 which took a couple of
+                    laps to recover from. Started P2, finished P8.</p>
+                </p>
+            </section>
+
+            <section class="content">
+                <section id="chart">
+                </section>
+                <h1>Lap Chart (delta to personal best lap/fastest lap)</h1>
+                <p>
+                    Visualising lap time delta (offset by gap to fastest lap) showing driver
+                    consistency over the course of a race, which does seem to back up my theory
+                    that my pace wanes druing the course of the race.
+                </p>
+                <section id="chart2">
+                </section>
+        </section>
+                
+    </body>
+    <script>
+        console.log("init");
+
+        var width = 960,
+            height = 560;
+
+        var textHeight = 15;
+        var offset = 15;
+
+        // set the dimensions and margins of the graph
+        var margin = {top: 20, right: 20, bottom: 50, left: 70},
+            width = 960 - margin.left - margin.right,
+            height = 500 - margin.top - margin.bottom;
+
+        // set the ranges
+        var x = d3.scaleLinear().range([0, width]);
+        var y = d3.scaleLinear().range([height, 0]);
+
+        // define the line
+        var valueline = d3.line()
+            .x(function(d) { return x(d.lapNo); })
+            .y(function(d) { return y(d.lapTime); });
+
+        var fastestLap = 13.167;
+
+        var data = [
+
+            { name: "JR", driverOffset: (14.241 - fastestLap), laps: [
+            {"lapNo": 0, "lapTime": 0, "pbDelta": 4.831},
+            {"lapNo": 1, "lapTime": 1.023, "pbDelta": 4.831},
+            {"lapNo": 2, "lapTime": 2.969, "pbDelta": 1.777},
+            {"lapNo": 3, "lapTime": 4.736, "pbDelta": 0.693},
+            {"lapNo": 4, "lapTime": 6.9, "pbDelta": 1.202},
+            {"lapNo": 5, "lapTime": 7.849, "pbDelta": 0.187},
+            {"lapNo": 6, "lapTime": 8.449, "pbDelta": 0},
+            {"lapNo": 7, "lapTime": 9.519, "pbDelta": 0.759},
+            {"lapNo": 8, "lapTime": 18.872, "pbDelta": 9.058},
+            {"lapNo": 9, "lapTime": 21.936, "pbDelta": 2.896},
+            {"lapNo": 10, "lapTime": 22.557, "pbDelta": 0.534},
+            {"lapNo": 11, "lapTime": 24.029, "pbDelta": 1.292},
+            {"lapNo": 12, "lapTime": 25.833, "pbDelta": 1.424},
+            {"lapNo": 13, "lapTime": 26.170, "pbDelta": 1.087}
+            ] 
+            },
+
+            { name: "IL", driverOffset: (14.167 - fastestLap), laps: [
+            {"lapNo": 0, "lapTime": 0, "pbDelta": 5.669},
+            {"lapNo": 1, "lapTime": 1.787, "pbDelta": 5.669},
+            {"lapNo": 2, "lapTime": 2.1, "pbDelta": 0.218},
+            {"lapNo": 3, "lapTime": 4.055, "pbDelta": 0.955},
+            {"lapNo": 4, "lapTime": 6.27, "pbDelta": 1.372},
+            {"lapNo": 5, "lapTime": 6.958, "pbDelta": 0},
+            {"lapNo": 6, "lapTime": 8.156, "pbDelta": 0.672},
+            {"lapNo": 7, "lapTime": 9.695, "pbDelta": 1.302},
+            {"lapNo": 8, "lapTime": 11.007, "pbDelta": 1.091},
+            {"lapNo": 9, "lapTime": 12.232, "pbDelta": 1.131},
+            {"lapNo": 10, "lapTime": 13.567, "pbDelta": 1.322},
+            {"lapNo": 11, "lapTime": 15.321, "pbDelta": 1.648},
+            {"lapNo": 12, "lapTime": 19.443, "pbDelta": 3.816},
+            {"lapNo": 13, "lapTime": 21.827, "pbDelta": 3.208}
+            ] 
+            },
+            
+            { name: "LM", driverOffset: 0, laps: [
+            {"lapNo": 0, "lapTime": 0, "pbDelta": 4.882},
+            {"lapNo": 1, "lapTime": 0, "pbDelta": 4.882},
+            {"lapNo": 2, "lapTime": 0, "pbDelta": 0.905},
+            {"lapNo": 3, "lapTime": 0, "pbDelta": 0},
+            {"lapNo": 4, "lapTime": 0, "pbDelta": 0.112},
+            {"lapNo": 5, "lapTime": 0, "pbDelta": 0.312},
+            {"lapNo": 6, "lapTime": 0, "pbDelta": 0.474},
+            {"lapNo": 7, "lapTime": 0, "pbDelta": 0.763},
+            {"lapNo": 8, "lapTime": 0, "pbDelta": 0.779},
+            {"lapNo": 9, "lapTime": 0, "pbDelta": 0.906},
+            {"lapNo": 10, "lapTime": 0, "pbDelta": 0.987},
+            {"lapNo": 11, "lapTime": 0, "pbDelta": 0.894},
+            {"lapNo": 12, "lapTime": 0, "pbDelta": 0.694},
+            {"lapNo": 13, "lapTime": 0, "pbDelta": 1.824}
+            ] 
+            },
+
+            { name: "LH", driverOffset: (14.077 - fastestLap), laps: [
+            {"lapNo": 0, "lapTime": 0, "pbDelta": 4.734},
+            {"lapNo": 1, "lapTime": 0.762, "pbDelta": 4.734},
+            {"lapNo": 2, "lapTime": 1.562, "pbDelta": 0.795},
+            {"lapNo": 3, "lapTime": 3.625, "pbDelta": 1.153},
+            {"lapNo": 4, "lapTime": 6.2, "pbDelta": 1.847},
+            {"lapNo": 5, "lapTime": 6.868, "pbDelta": 0},
+            {"lapNo": 6, "lapTime": 7.64, "pbDelta": 0.336},
+            {"lapNo": 7, "lapTime": 8.209, "pbDelta": 0.422},
+            {"lapNo": 8, "lapTime": 8.555, "pbDelta": 0.215},
+            {"lapNo": 9, "lapTime": 8.692, "pbDelta": 0.133},
+            {"lapNo": 10, "lapTime": 8.773, "pbDelta": 0.158},
+            {"lapNo": 11, "lapTime": 9.696, "pbDelta": 0.907},
+            {"lapNo": 12, "lapTime": 10.842, "pbDelta": 0.930},
+            {"lapNo": 13, "lapTime": 10.543, "pbDelta": 0.615}
+            ] 
+            },
+
+            { name: "CN", driverOffset: (13.693 - fastestLap), laps: [
+            {"lapNo": 0, "lapTime": 0, "pbDelta": 5.476},
+            {"lapNo": 1, "lapTime": 1.12, "pbDelta": 5.476},
+            {"lapNo": 2, "lapTime": 1.791, "pbDelta": 1.050},
+            {"lapNo": 3, "lapTime": 3.277, "pbDelta": 0.960},
+            {"lapNo": 4, "lapTime": 5.111, "pbDelta": 1.420},
+            {"lapNo": 5, "lapTime": 5.466, "pbDelta": 0.141},
+            {"lapNo": 6, "lapTime": 5.518, "pbDelta": 0},
+            {"lapNo": 7, "lapTime": 5.969, "pbDelta": 0.688},
+            {"lapNo": 8, "lapTime": 6.561, "pbDelta": 0.845},
+            {"lapNo": 9, "lapTime": 7.241, "pbDelta": 1.060},
+            {"lapNo": 10, "lapTime": 9.082, "pbDelta": 2.302},
+            {"lapNo": 11, "lapTime": 9.849, "pbDelta": 1.135},
+            {"lapNo": 12, "lapTime": 10.702, "pbDelta": 1.021},
+            {"lapNo": 13, "lapTime": 10.858, "pbDelta": 1.454}
+            ] 
+            },
+
+        
+            { name: "DE", driverOffset: (15.028 - fastestLap), laps: [
+            {"lapNo": 0, "lapTime": 0, "pbDelta": 7.884},
+            {"lapNo": 1, "lapTime": 4.863, "pbDelta": 7.884},
+            {"lapNo": 2, "lapTime": 6.557, "pbDelta": 0.738},
+            {"lapNo": 3, "lapTime": 8.418, "pbDelta": 0},
+            {"lapNo": 4, "lapTime": 10.441, "pbDelta": 0.274},
+            {"lapNo": 5, "lapTime": 12.145, "pbDelta": 0.155},
+            {"lapNo": 6, "lapTime": 13.920, "pbDelta": 0.388},
+            {"lapNo": 7, "lapTime": 15.954, "pbDelta": 0.936},
+            {"lapNo": 8, "lapTime": 17.982, "pbDelta": 0.946},
+            {"lapNo": 9, "lapTime": 20.370, "pbDelta": 1.443},
+            {"lapNo": 10, "lapTime": 22.179, "pbDelta": 0.935},
+            {"lapNo": 11, "lapTime": 24.179, "pbDelta": 1.028},
+            {"lapNo": 12, "lapTime": 25.910, "pbDelta": 0.569},
+            {"lapNo": 13, "lapTime": 26.192, "pbDelta": 0.245}
+            ] 
+            }
+        ]
+
+        var svg = d3.select("#chart").append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+            .attr("transform",
+                "translate(" + margin.left + "," + margin.top + ")");
+
+        x.domain([0, d3.max(data[0].laps, function(d) { return d.lapNo; })]);
+        y.domain([30, 0]);
+
+        for(var i = 0; i < data.length; i++)
+            addLine(data[i].laps, data[i].name, i);
+
+        function addLine(data, name, colorIdx)
+        {
+            var path = svg.append("path")
+                .data([data])
+                .attr("class", "line")
+                .attr("d", valueline)
+                .attr("stroke", d3.schemeCategory10[colorIdx]);
+
+                svg.append("text")
+                .attr("stroke", d3.schemeCategory10[colorIdx])
+                .text(name)
+                .attr("x", width - margin.right)
+                .attr("y", (colorIdx * 5) + y(data[data.length - 1].lapTime) - 15)
+
+            //https://jakearchibald.com/2013/animated-line-drawing-svg/
+            var totalLength = path.node().getTotalLength();
+
+            path
+            .attr("stroke-dasharray", totalLength + " " + totalLength)
+            .attr("stroke-dashoffset", totalLength)
+            .transition()
+                .duration(13000)
+                .ease(d3.easeLinear)
+                .attr("stroke-dashoffset", 0);
+
+            svg.append("g")
+                .attr("transform", "translate(0," + height + ")")
+                .call(d3.axisBottom(x));
+
+            svg.append("text")             
+                .attr("transform",
+                        "translate(" + (width/2) + " ," + 
+                                    (height + margin.top + 20) + ")")
+                .style("text-anchor", "middle")
+                .text("Lap");
+
+            svg.append("g")
+                .call(d3.axisLeft(y));
+
+            svg.append("text")
+                .attr("transform", "rotate(-90)")
+                .attr("y", 0 - margin.left)
+                .attr("x",0 - (height / 2))
+                .attr("dy", "1em")
+                .style("text-anchor", "middle")
+                .text("Gap to Leader");    
+
+        }
+
+        var svg2 = d3.select("#chart2").append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+            .attr("transform",
+                "translate(" + margin.left + "," + margin.top + ")");
+
+        // set the ranges
+        var x2 = d3.scaleLinear().range([0, width]);
+        var y2 = d3.scaleLinear().range([height, 0]);
+
+        x2.domain([0, d3.max(data[0].laps, function(d) { return d.lapNo; })]);
+        y2.domain([0, 5]);
+
+        for(var i = 0; i < data.length; i++)
+            addLine2(data[i], i);
+
+        function addLine2(driver, colorIdx)
+        {
+            var data = driver.laps;
+
+            // define the line
+            var valueline2 = d3.line()
+                .x(function(d) { return x2(d.lapNo); })
+                .y(function(d) { return y2(driver.driverOffset + d.pbDelta); });
+
+            var path = svg2.append("path")
+                .data([data])
+                .attr("class", "line")
+                .attr("d", valueline2)
+                .attr("stroke", d3.schemeCategory10[colorIdx]);
+
+            svg2.append("g")
+                .attr("transform", "translate(0," + height + ")")
+                .call(d3.axisBottom(x2));
+
+            svg2.append("text")             
+                .attr("transform",
+                        "translate(" + (width/2) + " ," + 
+                                    (height + margin.top + 20) + ")")
+                .style("text-anchor", "middle")
+                .text("Lap");
+
+            svg2.append("g")
+                .call(d3.axisLeft(y2));
+
+            svg2.append("text")
+                .attr("transform", "rotate(-90)")
+                .attr("y", 0 - margin.left)
+                .attr("x",0 - (height / 2))
+                .attr("dy", "1em")
+                .style("text-anchor", "middle")
+                .text("Gap to Leader");    
+
+        }
+
+    </script>
+</html>

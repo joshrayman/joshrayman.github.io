@@ -1,0 +1,72 @@
+html {
+  background: #fafafa;
+}
+
+#vis {
+  width: 400px;
+  margin: 10px auto;
+  font-family: sans-serif;
+}
+
+svg {
+  display: block;
+  width: 400px;
+  margin: 10px auto;
+  height: 75px;
+  border: 1px solid black;
+}
+
+path.link {
+  opacity: 0.5;
+}
+
+.yellow {
+  fill: #ff0;
+  stroke: #ff0;
+}
+
+.red {
+  fill: #f00;
+  stroke: #f00;
+}
+
+.blue {
+  fill: #00f;
+  stroke: #00f;
+}
+
+.purple {
+  fill: #90f;
+  stroke: #90f;
+}
+
+.yellow.selected,
+.red.selected,
+.blue.selected,
+.purple.selected {
+  stroke: #ccc;
+  stroke-width: 5px;
+}
+
+svg#sankey {
+  height: 460px;
+}
+
+.Coalition {
+  fill: #ccc;
+}
+
+.Opposition {
+  fill: #999
+}
+
+.node text {
+  fill: #000;
+  text-anchor: middle;
+  stroke: none;
+  font-family: sans-serif;
+}
+
+svg > g {
+  transform: translate(50px, 10px);
+}

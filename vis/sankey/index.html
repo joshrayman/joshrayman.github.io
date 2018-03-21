@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="style.css"></link>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.js"></script>
+<script src="sankey.js"></script>
+<script src="vis.js"></script>
+<div id="vis">
+  <h2>Coalition Buildler</h2>
+  <p>No single party has reached a majority (50 seats), so build your own coalition using the buttons below to select your coalition.</p>
+  <svg id="selector">
+    <rect width="50" height="50" x="10" y="10" class="blue selected"></rect>
+    <rect width="50" height="50" x="70" y="10" class="red"></rect>
+    <rect width="50" height="50" x="130" y="10" class="yellow"></rect>
+    <rect width="50" height="50" x="190" y="10" class="purple"></rect>
+  </svg>
+  <svg id="sankey"></svg>
+</div>

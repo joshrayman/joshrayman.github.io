@@ -1,0 +1,54 @@
+State,Name,EC,Result,Clinton,Trump,Other
+WA,Washington,12,D,8,4,0
+OR,Oregon,7,D,4,3,0
+CA,California,55,D,35,17,3
+NV,Nevada,6,D,3,3,0
+ID,Idaho,4,R,1,3,0
+MT,Montana,3,R,1,2,0
+WY,Wyoming,3,R,1,2,0
+UT,Utah,6,R,1,4,1
+CO,Colorado,9,D,5,4,0
+AZ,Arizona,11,R,5,6,0
+NM,New Mexico,5,D,3,2,0
+TX,Texas,38,R,16,21,1
+OK,Oklahoma,7,R,2,5,0
+KS,Kansas,6,R,2,4,0
+NE,Nebraska,4,R,1,3,0
+NE2,Nebraska Extra,1,R,0,1,0
+SD,South Dakota,3,R,1,2,0
+ND,North Dakota,3,R,1,2,0
+LA,Louisiana,8,R,3,5,0
+AR,Arkansas,6,R,2,4,0
+MO,Missouri,10,R,4,6,0
+MS,Mississippi,6,R,2,4,0
+TN,Tennessee,11,R,4,7,0
+AL,Alabama,9,R,3,6,0
+GA,Georgia,16,R,7,9,0
+FL,Florida,29,R,14,15,0
+SC,South Carolina,9,R,4,5,0
+NC,North Carolina,15,R,7,8,0
+MN,Minnesota,10,D,6,4,0
+IA,Iowa,6,R,3,3,0
+WI,Wisconsin,10,R,5,5,0
+MI,Michigan,16,D,8,8,0
+IL,Illinois,20,D,12,8,0
+IN,Indiana,11,R,4,7,0
+OH,Ohio,18,R,8,10,0
+KY,Kentucky,8,R,3,5,0
+WV,West Virginia,5,R,1,4,0
+VA,Virginia,13,D,7,6,0
+DC,DC,3,D,3,0,0
+MD,Maryland,10,D,7,3,0
+DE,Delaware,3,D,2,1,0
+NJ,New Jersey,14,D,8,6,0
+PA,Pennsylvania,20,R,10,10,0
+NY,New York,29,D,18,11,0
+CT,Connecticut,7,D,4,3,0
+RI,Rhode Island,4,D,2,2,0
+MA,Massachusetts,11,D,7,4,0
+VT,Vermont,3,D,2,1,0
+NH,New Hampshire,4,D,2,2,0
+ME,Maine,3,D,2,1,0
+ME2,Maine Extra,1,R,0,1,0
+HI,Hawaii,4,D,3,1,0
+AK,Alaska,3,R,1,2,0

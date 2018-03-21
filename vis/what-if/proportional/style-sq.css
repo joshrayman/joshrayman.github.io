@@ -1,0 +1,91 @@
+/* CSS goes here. */
+body {
+    background: #fff;
+    color: #000;
+    font-family: sans-serif;
+}
+
+text {
+    font-size: .75em;
+}
+
+button {
+    border: 0;
+    padding: 10px;
+    cursor:pointer;
+}
+
+button:hover {
+    background: #ccc;
+}
+
+.container {
+    width: 750px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+#intro {
+    width: 100%;
+    float: left;
+}
+
+#right {
+    width: 45%;
+    padding: 0 20px;
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.button-mock {
+    font-size: 0.7em;
+    padding: 10px;
+}
+
+h4 {
+    margin: 5px;
+}
+
+rect.vote.D {
+    fill: blue;
+}
+
+rect.vote.R {
+    fill: red;
+}
+
+rect.vote.O {
+    fill: #ccc;
+}
+
+rect.result.D {
+    stroke: blue;
+}
+
+rect.result.R {
+    stroke: red;
+}
+
+rect.result.O {
+    stroke: black;
+}
+
+path.state.I {
+    fill: #ccc;
+}
+
+path.state.D {
+    fill: #aaf;
+}
+
+path.state.R {
+    fill: #faa;
+}
+
+path.state.def {
+    fill: #fafafa;
+}

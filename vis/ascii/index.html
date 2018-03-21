@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+html {
+    background: #000;
+    color: #fff;
+}
+
+#test {
+    font-size: 3em;
+    padding: 2em;
+}
+
+.marker {
+    position: relative;
+    left: 12.5px;
+}
+
+.row {
+    float: left;
+    width: 100%;
+}
+</style>
+<body>
+    <div id="test"></div>
+</body>
+<script src="../d3.v4.js"></script>
+<script>
+    var data = [
+        { name: "A", value: 10, color: "#f00" },
+        { name: "B", value: 15, color: "#0f0" },
+        { name: "C", value: 5 , color: "#00f"},
+    ]
+
+    var rows = d3.select("#test")
+        .selectAll("pre.row")
+        .data(data)
+        .enter()
+        .append("pre")
+        .attr("class", "row")
+
+    rows
+        .append("span")
+        .attr("class", "key")
+        .text(function(d) { return d.name + " | "; })
+
+    rows
+        .append("span")
+        .attr("class", "val")
+        .style("background", function(d) { return d.color; })
+        .text(function(d) { 
+            var bar = "";
+            for(var i = 0; i < d.value; i++) {
+                bar += " ";
+            }
+            return bar; })
+
+    var axis = d3.select("#test").append("pre").attr("class", "axis");
+
+    var axis1 = axis
+        .append("span")
+        .attr("class", "axis row")
+    
+    axis1.append("span")
+        .text("V |");
+
+    axis1.append("span")
+        .attr("class", "marker")
+        .text(function() { 
+            var bar = "";
+            for(var i = 0; i < 16; i++) {
+                if(i % 5 === 0) {
+                    bar += "|";
+                } else {
+                    bar += "-";
+                }
+            }
+            return bar; })
+
+    axis
+        .append("span")
+        .attr("class", "axis row")
+        .text(function() { 
+            var bar = "a | ";
+            for(var i = 0; i < 16; i++) {
+                if(i % 5 === 0) {
+                    if(i > 9) {
+                        bar = bar.slice(0, bar.length - 1);
+                    }
+                    bar += i;
+                } else {
+                    bar += " ";
+                }
+            }
+            return bar; })
+
+    axis
+        .append("span")
+        .attr("class", "axis row")
+        .text("l |")
+</script>
