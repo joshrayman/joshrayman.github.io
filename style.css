@@ -2,8 +2,6 @@
  * 
  * 			7/10/2017 - rayman.xyz basic layout
  * 			
- * 			'sup?
- * 
  */
  @import url('https://fonts.googleapis.com/css?family=Nunito:200');
  
@@ -88,12 +86,12 @@ ul {
 #stripe {
  background-image: linear-gradient(
       to left, 
-      #a3a5c3,
+      #7294D4,
+      #7294D4 33%,
       #a3a5c3 33%,
-      #f00 33%,
-      #f00 66%,
-       #99ccff  66%,
-       #99ccff  100%
+      #a3a5c3 66%,
+       #E6A0C4  66%,
+       #E6A0C4  100%
     );
 	margin: 0 auto;
 	width: 50px;
