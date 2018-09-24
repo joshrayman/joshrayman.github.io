@@ -41,10 +41,7 @@ header {
 	margin: 0;
 	width: 95%;
 	max-width: 650px;
-}
-
-#content {
-	padding: 2.5%;
+	padding: 2.5% 2.5% 0;
 }
 
 @keyframes fadein {
@@ -57,7 +54,7 @@ body {
       to right, 
       #fafafa,
       #fafafa 30px,
-      #e0ffff 30px
+      #E6F2FF 30px
     );
 }
 
@@ -159,10 +156,6 @@ img {
 
 .desc {
 	clear: both;
-}
-
-.project {
-	margin: 50px 10px;
 }
 
 .top {
