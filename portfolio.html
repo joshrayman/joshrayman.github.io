@@ -8,13 +8,13 @@
     </head>
     <body>
 			<header id="content">
-				<a href="/"><img class="profile" src="headshot.jpg"></a>
 				<h1>Josh Rayman</h1>
 				<a href="mailto:josh@rayman.xyz">josh@rayman.xyz</a>
 				<a href="http://www.twitter.com/joshrayman">@joshrayman</a> 
 				<a href="https://uk.linkedin.com/in/joshrayman">LinkedIn</a>
 				<p>Graphics/data vis developer working for the BBC. Interested in storytelling using web technology and turning data into graphics – finding the visual angle, wrangling data, and writing performant code.</p>
 				<nav id="contact">
+					<a href="/">Back</a>
 					<a href="cv.pdf">Download CV</a>
 					<a href="portfolio.html">Portfolio</a>
 				</nav>
@@ -24,16 +24,25 @@
 					<section class="data-vis">
 							<h3>Data Vis</h2>
 							<div class="entry">
+									<div class="title">Afghan Election Coverage</div>
+									<div class="date">October 2018 - BBC Persian/Pashto</div>
+									<a href="https://t.co/Buw5NkOufE"><img src="img/afghan.jpg" alt="TV Interactive Map"></a>
+									<div class="content">
+										<p>Interactive data dashboard for pre-election coverage, and updated with results as they arrived. Also adapted into a touchscreen TV segment that was broadcast on BBC Persian and <a href="https://www.youtube.com/watch?v=bl7iJrcN_Sc">BBC Pashto</a>.</p>
+									</div>
+							</div>
+						<hr class="sm">		
+							<div class="entry">
 							<div class="title">Turkish Election Coverage</div>
 							<div class="date">May/June 2018 - BBC Türkçe</div>
-							<a href="https://www.bbc.com/turkce/haberler-turkiye-44602559"><img src="img/turk-results.gif" alt="Interactive Results"></a>
+							<a href="https://www.bbc.com/turkce/haberler-turkiye-44602559"><img src="img/turk1.png" alt="Interactive Results"></a>
 							<div class="content">
 								<p>A series of interactive pieces for the Turkish service before and after the snap Presidential/Parlimentary elections in June 2018. Included: a <a href="https://www.bbc.com/turkce/haberler-turkiye-44602559">results dashboard</a> in the week after the election, an <a href="https://www.bbc.com/turkce/haberler-turkiye-44532301">interactive explainer</a> of the D'Hondt mixed member seat distribution system and a slider providing information about the <a href="https://www.bbc.com/turkce/haberler-turkiye-44334035">party manifestos</a>. I also produced a <a href="img/turk4.png">hex map</a> of the 2018 results, which was the <a href="vis/turkey-map/index.html">original pitch</a>.</p>
 							</div>
 							<details>
 									<summary>More screenshots:</summary>
-									<a href="https://www.bbc.com/turkce/haberler-turkiye-44532301"><img src="img/seat-explainer.gif" alt="Parlimentary System Explainer"></a>
-									<a href="https://www.bbc.com/turkce/haberler-turkiye-44334035"><img src="img/manifesto.gif" alt="Party Manifesto Slider"></a>
+									<a href="https://www.bbc.com/turkce/haberler-turkiye-44532301"><img src="img/turk2.png" alt="Parlimentary System Explainer"></a>
+									<a href="https://www.bbc.com/turkce/haberler-turkiye-44334035"><img src="img/turk3.png" alt="Party Manifesto Slider"></a>
 									<a href="img/turk4.png"><img src="img/turk4.png" alt="2018 Results Hex map"></a>
 							</details>
 						</div>
@@ -65,13 +74,6 @@
 						</div>
 						<hr class="sm">
 						<div class="entry">
-							<div class="title">ASCII D3</div>
-							<div class="date">30th March 2017</div>
-							<div class="content"><a href="vis/ascii/index.html"><img src="img/ascii.png" alt="D3 ASCII bar chart"></a></div>
-							<div class="content">This was a bit of a non-starter when I realised that Lynx runs no Javascript, but I imagined a world of text and how D3 might be able to do some vis in that world. And this was what I got. Perhaps this could be done server side so Lynx can join in on the graphs.</div>
-						</div>
-						<hr class="sm">
-						<div class="entry">
 							<div class="title">What If: Proportional US Electoral College?</div>
 							<div class="date">8th February 2017</div>
 							<div class="content"><a href="vis/what-if/proportional/index.html"><img src="img/whatif.png" alt="A graphic showing an alternative US Electoral College"></a></div>
@@ -81,9 +83,19 @@
 					<section class="interactive">
 						<h3>Interactive</h2>
 						<div class="entry">
+							<div class="title">ISIS Tunnels 3D Model</div>
+							<div class="date">December 2018 - BBC Arabic/News Online</div>
+							<a href="https://www.bbc.co.uk/news/resources/idt-5c6bc253-d161-41f4-8501-4e7cacf047d5"><img src="img/tunnels.jpg" alt="Interactive map of Iran"></a>
+							<div class="content">
+								<p>An explorable 3D model scanned from an excavated tunnel. User interface was built over the top of a third party 3D tool, and we enhanced how the autoplay camera worked.</p>
+							</div>
+						</div>
+						<hr class="sm">	
+						
+						<div class="entry">
 							<div class="title">Iran Wetlands Interactive Map</div>
 							<div class="date">11th June 2018 - BBC Persian</div>
-							<a href="http://www.bbc.com/persian/resources/idt-ff7c8e59-6b98-4a76-8012-ee7bc5d409d6"><img src="img/iran-wetlands.gif" alt="Interactive map of Iran"></a>
+							<a href="http://www.bbc.com/persian/resources/idt-ff7c8e59-6b98-4a76-8012-ee7bc5d409d6"><img src="img/wetlands.jpg" alt="Interactive map of Iran"></a>
 							<div class="content">
 								<p>An interactive map exploring Iranian wetlands and their changing topography. Satellite photography slider over time. Also has progressive enhancement with NoJS/CSS only animated version.</p>
 							</div>
@@ -93,7 +105,7 @@
 						<div class="entry">
 							<div class="title">Norouz Countdown/Game</div>
 							<div class="date">16th March 2018 - BBC Websites</div>
-							<a href="http://www.bbcpersian.com/norouz"><img src="img/norouz.gif" alt="Norouz countdown and drag and drop game"></a>
+							<a href="http://www.bbcpersian.com/norouz"><img src="img/norouz.jpg" alt="Norouz countdown and drag and drop game"></a>
 							<div class="content">
 								<p>VanillaJS drag and drop game for Persian New Year/Spring Equinox that was reversioned into six languages (Persian, English, Arabic, Kyrgyz, Pashto and Uzbek).</p>
 								<p><a href="http://www.bbc.com/persian/resources/idt-b0769710-597b-45b9-89bb-6b76c87cefba">English</a> 
@@ -101,7 +113,6 @@
 							</div>
 						</div>
 						<hr class="sm">
-
 						<div class="entry">
 							<div class="title">Wealth Calculator</div>
 							<div class="date">11th January 2018 - BBC Persian and Telegram</div>
