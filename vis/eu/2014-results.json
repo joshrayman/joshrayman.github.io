@@ -1,0 +1,2261 @@
+{
+  "results": [
+    {
+      "country": "Germany",
+      "EPP": [
+        {
+          "party": "CDU",
+          "meps": 29
+        },
+        {
+          "party": "CSU",
+          "meps": 5
+        }
+      ],
+      "SD": [
+        {
+          "party": "SPD",
+          "meps": 27
+        },
+        null
+      ],
+      "ECR": [
+        {
+          "party": "AfD",
+          "meps": 7
+        },
+        {
+          "party": "Familie",
+          "meps": 1
+        }
+      ],
+      "ALDE": [
+        {
+          "party": "FDP",
+          "meps": 3
+        },
+        {
+          "party": "FW",
+          "meps": 1
+        }
+      ],
+      "GUE_NGL": [
+        {
+          "party": "Linke",
+          "meps": 7
+        },
+        {
+          "party": "Tierschutz",
+          "meps": 1
+        }
+      ],
+      "G_EFA": [
+        {
+          "party": "B’90/Grüne",
+          "meps": 11
+        },
+        {
+          "party": "Piraten",
+          "meps": 1
+        },
+        {
+          "party": "ÖDP",
+          "meps": 1
+        }
+      ],
+      "EFDD": [
+        null
+      ],
+      "NI": [
+        {
+          "party": "NPD",
+          "meps": 1
+        },
+        {
+          "party": "Partei",
+          "meps": 1
+        }
+      ]
+    },
+    {
+      "country": "Spain",
+      "EPP": [
+        {
+          "party": "PP",
+          "meps": 16
+        },
+        {
+          "party": "UDC",
+          "meps": 1
+        }
+      ],
+      "SD": [
+        {
+          "party": "PSOE",
+          "meps": 13
+        },
+        {
+          "party": "PSC",
+          "meps": 1
+        }
+      ],
+      "ECR": [
+        null
+      ],
+      "ALDE": [
+        {
+          "party": "UPyD",
+          "meps": 4
+        },
+        {
+          "party": "C's",
+          "meps": 2
+        },
+        {
+          "party": "CDC",
+          "meps": 1
+        },
+        {
+          "party": "PNV",
+          "meps": 1
+        }
+      ],
+      "GUE_NGL": [
+        {
+          "party": "Podemos",
+          "meps": 5
+        },
+        {
+          "party": "IU",
+          "meps": 4
+        },
+        {
+          "party": "Anova",
+          "meps": 1
+        },
+        {
+          "party": "LPD",
+          "meps": 1
+        }
+      ],
+      "G_EFA": [
+        {
+          "party": "EDD",
+          "meps": 2
+        },
+        {
+          "party": "ICV",
+          "meps": 1
+        },
+        {
+          "party": "PE",
+          "meps": 1
+        }
+      ],
+      "EFDD": [
+        null
+      ],
+      "NI": [
+        null
+      ]
+    },
+    {
+      "country": "Poland",
+      "EPP": [
+        {
+          "party": "PO",
+          "meps": 19
+        },
+        {
+          "party": "PSL",
+          "meps": 4
+        }
+      ],
+      "SD": [
+        {
+          "party": "SLD",
+          "meps": 4
+        },
+        {
+          "party": "UP",
+          "meps": 1
+        }
+      ],
+      "ECR": [
+        {
+          "party": "PiS",
+          "meps": 18
+        },
+        {
+          "party": "PR",
+          "meps": 1
+        }
+      ],
+      "ALDE": [
+        null
+      ],
+      "GUE_NGL": [
+        null
+      ],
+      "G_EFA": [
+        null
+      ],
+      "EFDD": [
+        null
+      ],
+      "NI": [
+        {
+          "party": "KNP",
+          "meps": 4
+        }
+      ]
+    },
+    {
+      "country": "Romania",
+      "EPP": [
+        {
+          "party": "PNL",
+          "meps": 6
+        },
+        {
+          "party": "PDL",
+          "meps": 5
+        },
+        {
+          "party": "UDMR",
+          "meps": 2
+        },
+        {
+          "party": "PMP",
+          "meps": 2
+        }
+      ],
+      "SD": [
+        {
+          "party": "PSD",
+          "meps": 13
+        },
+        {
+          "party": "UNPR",
+          "meps": 2
+        },
+        {
+          "party": "PC",
+          "meps": 1
+        }
+      ],
+      "ECR": [
+        null
+      ],
+      "ALDE": [
+        {
+          "party": "Diaconu",
+          "meps": 1
+        }
+      ],
+      "GUE_NGL": [
+        null
+      ],
+      "G_EFA": [
+        null
+      ],
+      "EFDD": [
+        null
+      ],
+      "NI": [
+        null
+      ]
+    },
+    {
+      "country": "Netherlands",
+      "EPP": [
+        {
+          "party": "CDA",
+          "meps": 5
+        }
+      ],
+      "SD": [
+        {
+          "party": "PvdA",
+          "meps": 3
+        }
+      ],
+      "ECR": [
+        {
+          "party": "CU",
+          "meps": 1
+        },
+        {
+          "party": "SGP",
+          "meps": 1
+        }
+      ],
+      "ALDE": [
+        {
+          "party": "D66",
+          "meps": 4
+        },
+        {
+          "party": "VVD",
+          "meps": 3
+        }
+      ],
+      "GUE_NGL": [
+        {
+          "party": "SP",
+          "meps": 2
+        },
+        {
+          "party": "PvdD",
+          "meps": 1
+        }
+      ],
+      "G_EFA": [
+        {
+          "party": "GL",
+          "meps": 2
+        }
+      ],
+      "EFDD": [
+        null
+      ],
+      "NI": [
+        {
+          "party": "PVV",
+          "meps": 4
+        }
+      ]
+    },
+    {
+      "country": "CzechRepublic",
+      "EPP": [
+        {
+          "party": "KDU-ČSL",
+          "meps": 3
+        },
+        {
+          "party": "TOP 09",
+          "meps": 3
+        },
+        {
+          "party": "STAN",
+          "meps": 1
+        }
+      ],
+      "SD": [
+        {
+          "party": "ČSSD",
+          "meps": 4
+        }
+      ],
+      "ECR": [
+        {
+          "party": "ODS",
+          "meps": 2
+        }
+      ],
+      "ALDE": [
+        {
+          "party": "ANO",
+          "meps": 4
+        }
+      ],
+      "GUE_NGL": [
+        {
+          "party": "KSČM",
+          "meps": 3
+        }
+      ],
+      "G_EFA": [
+        null
+      ],
+      "EFDD": [
+        {
+          "party": "Svobodní",
+          "meps": 1
+        }
+      ],
+      "NI": [
+        null
+      ]
+    },
+    {
+      "country": "Greece",
+      "EPP": [
+        {
+          "party": "ND",
+          "meps": 5
+        }
+      ],
+      "SD": [
+        {
+          "party": "PASOK",
+          "meps": 2
+        },
+        {
+          "party": "Potami",
+          "meps": 2
+        }
+      ],
+      "ECR": [
+        {
+          "party": "ANEL",
+          "meps": 1
+        }
+      ],
+      "ALDE": [
+        null
+      ],
+      "GUE_NGL": [
+        {
+          "party": "SYRIZA",
+          "meps": 6
+        }
+      ],
+      "G_EFA": [
+        null
+      ],
+      "EFDD": [
+        null
+      ],
+      "NI": [
+        {
+          "party": "XA",
+          "meps": 3
+        },
+        {
+          "party": "KKE",
+          "meps": 2
+        }
+      ]
+    },
+    {
+      "country": "Hungary",
+      "EPP": [
+        {
+          "party": "Fidesz",
+          "meps": 11
+        },
+        {
+          "party": "KDNP",
+          "meps": 1
+        }
+      ],
+      "SD": [
+        {
+          "party": "MSZP",
+          "meps": 2
+        },
+        {
+          "party": "DK",
+          "meps": 2
+        }
+      ],
+      "ECR": [
+        null
+      ],
+      "ALDE": [
+        null
+      ],
+      "GUE_NGL": [
+        null
+      ],
+      "G_EFA": [
+        {
+          "party": "LMP",
+          "meps": 1
+        },
+        {
+          "party": "PM",
+          "meps": 1
+        }
+      ],
+      "EFDD": [
+        null
+      ],
+      "NI": [
+        {
+          "party": "Jobbik",
+          "meps": 3
+        }
+      ]
+    },
+    {
+      "country": "Portugal",
+      "EPP": [
+        {
+          "party": "PSD",
+          "meps": 6
+        },
+        {
+          "party": "CDS-PP",
+          "meps": 1
+        }
+      ],
+      "SD": [
+        {
+          "party": "PS",
+          "meps": 8
+        }
+      ],
+      "ECR": [
+        null
+      ],
+      "ALDE": [
+        {
+          "party": "MPT",
+          "meps": 2
+        }
+      ],
+      "GUE_NGL": [
+        {
+          "party": "PCP",
+          "meps": 3
+        },
+        {
+          "party": "BE",
+          "meps": 1
+        }
+      ],
+      "G_EFA": [
+        null
+      ],
+      "EFDD": [
+        null
+      ],
+      "NI": [
+        null
+      ]
+    },
+    {
+      "country": "Sweden",
+      "EPP": [
+        {
+          "party": "M",
+          "meps": 3
+        },
+        {
+          "party": "KD",
+          "meps": 1
+        }
+      ],
+      "SD": [
+        {
+          "party": "S",
+          "meps": 5
+        },
+        {
+          "party": "FI",
+          "meps": 1
+        }
+      ],
+      "ECR": [
+        null
+      ],
+      "ALDE": [
+        {
+          "party": "FP",
+          "meps": 2
+        },
+        {
+          "party": "C",
+          "meps": 1
+        }
+      ],
+      "GUE_NGL": [
+        {
+          "party": "V",
+          "meps": 1
+        }
+      ],
+      "G_EFA": [
+        {
+          "party": "MP",
+          "meps": 4
+        }
+      ],
+      "EFDD": [
+        {
+          "party": "SD",
+          "meps": 2
+        }
+      ],
+      "NI": [
+        null
+      ]
+    },
+    {
+      "country": "Austria",
+      "EPP": [
+        {
+          "party": "ÖVP",
+          "meps": 5
+        }
+      ],
+      "SD": [
+        {
+          "party": "SPÖ",
+          "meps": 5
+        }
+      ],
+      "ECR": [
+        null
+      ],
+      "ALDE": [
+        {
+          "party": "NEOS",
+          "meps": 1
+        }
+      ],
+      "GUE_NGL": [
+        null
+      ],
+      "G_EFA": [
+        {
+          "party": "Grüne",
+          "meps": 3
+        }
+      ],
+      "EFDD": [
+        null
+      ],
+      "NI": [
+        {
+          "party": "FPÖ",
+          "meps": 4
+        }
+      ]
+    },
+    {
+      "country": "Bulgaria",
+      "EPP": [
+        {
+          "party": "GERB",
+          "meps": 6
+        },
+        {
+          "party": "DSB",
+          "meps": 1
+        }
+      ],
+      "SD": [
+        {
+          "party": "BSP",
+          "meps": 4
+        }
+      ],
+      "ECR": [
+        {
+          "party": "BBTs",
+          "meps": 1
+        },
+        {
+          "party": "VMRO",
+          "meps": 1
+        }
+      ],
+      "ALDE": [
+        {
+          "party": "DPS",
+          "meps": 4
+        }
+      ],
+      "GUE_NGL": [
+        null
+      ],
+      "G_EFA": [
+        null
+      ],
+      "EFDD": [
+        null
+      ],
+      "NI": [
+        null
+      ]
+    },
+    {
+      "country": "Finland",
+      "EPP": [
+        {
+          "party": "Kok.",
+          "meps": 3
+        }
+      ],
+      "SD": [
+        {
+          "party": "SDP",
+          "meps": 2
+        }
+      ],
+      "ECR": [
+        {
+          "party": "PS",
+          "meps": 2
+        }
+      ],
+      "ALDE": [
+        {
+          "party": "Kesk.",
+          "meps": 3
+        },
+        {
+          "party": "RKP",
+          "meps": 1
+        }
+      ],
+      "GUE_NGL": [
+        {
+          "party": "Vas.",
+          "meps": 1
+        }
+      ],
+      "G_EFA": [
+        {
+          "party": "Vihr.",
+          "meps": 1
+        }
+      ],
+      "EFDD": [
+        null
+      ],
+      "NI": [
+        null
+      ]
+    },
+    {
+      "country": "Denmark",
+      "EPP": [
+        {
+          "party": "K",
+          "meps": 1
+        }
+      ],
+      "SD": [
+        {
+          "party": "S",
+          "meps": 3
+        }
+      ],
+      "ECR": [
+        {
+          "party": "DF",
+          "meps": 4
+        }
+      ],
+      "ALDE": [
+        {
+          "party": "V",
+          "meps": 2
+        },
+        {
+          "party": "RV",
+          "meps": 1
+        }
+      ],
+      "GUE_NGL": [
+        {
+          "party": "N",
+          "meps": 1
+        }
+      ],
+      "G_EFA": [
+        {
+          "party": "SF",
+          "meps": 1
+        }
+      ],
+      "EFDD": [
+        null
+      ],
+      "NI": [
+        null
+      ]
+    },
+    {
+      "country": "Slovakia",
+      "EPP": [
+        {
+          "party": "KDH",
+          "meps": 2
+        },
+        {
+          "party": "SDKÚ-DS",
+          "meps": 2
+        },
+        {
+          "party": "SMK",
+          "meps": 1
+        },
+        {
+          "party": "Most-Híd",
+          "meps": 1
+        }
+      ],
+      "SD": [
+        {
+          "party": "Smer",
+          "meps": 4
+        }
+      ],
+      "ECR": [
+        {
+          "party": "OĽaNO",
+          "meps": 1
+        },
+        {
+          "party": "Nova",
+          "meps": 1
+        }
+      ],
+      "ALDE": [
+        {
+          "party": "SaS",
+          "meps": 1
+        }
+      ],
+      "GUE_NGL": [
+        null
+      ],
+      "G_EFA": [
+        null
+      ],
+      "EFDD": [
+        null
+      ],
+      "NI": [
+        null
+      ]
+    },
+    {
+      "country": "Croatia",
+      "EPP": [
+        {
+          "party": "HDZ",
+          "meps": 4
+        },
+        {
+          "party": "HSS",
+          "meps": 1
+        }
+      ],
+      "SD": [
+        {
+          "party": "SDP",
+          "meps": 2
+        }
+      ],
+      "ECR": [
+        {
+          "party": "HSP-AS",
+          "meps": 1
+        }
+      ],
+      "ALDE": [
+        {
+          "party": "HNS",
+          "meps": 1
+        },
+        {
+          "party": "IDS",
+          "meps": 1
+        }
+      ],
+      "GUE_NGL": [
+        null
+      ],
+      "G_EFA": [
+        {
+          "party": "ORaH",
+          "meps": 1
+        }
+      ],
+      "EFDD": [
+        null
+      ],
+      "NI": [
+        null
+      ]
+    },
+    {
+      "country": "Lithuania",
+      "EPP": [
+        {
+          "party": "TS-LKD",
+          "meps": 2
+        }
+      ],
+      "SD": [
+        {
+          "party": "LSDP",
+          "meps": 2
+        }
+      ],
+      "ECR": [
+        {
+          "party": "LLRA",
+          "meps": 1
+        }
+      ],
+      "ALDE": [
+        {
+          "party": "LRLS",
+          "meps": 2
+        },
+        {
+          "party": "DP",
+          "meps": 1
+        }
+      ],
+      "GUE_NGL": [
+        null
+      ],
+      "G_EFA": [
+        {
+          "party": "LVŽS",
+          "meps": 1
+        }
+      ],
+      "EFDD": [
+        {
+          "party": "TT",
+          "meps": 2
+        }
+      ],
+      "NI": [
+        null
+      ]
+    },
+    {
+      "country": "Latvia",
+      "EPP": [
+        {
+          "party": "Vienotība",
+          "meps": 4
+        }
+      ],
+      "SD": [
+        {
+          "party": "Saskaņa SDP",
+          "meps": 1
+        }
+      ],
+      "ECR": [
+        {
+          "party": "NA",
+          "meps": 1
+        }
+      ],
+      "ALDE": [
+        null
+      ],
+      "GUE_NGL": [
+        null
+      ],
+      "G_EFA": [
+        {
+          "party": "LKS",
+          "meps": 1
+        }
+      ],
+      "EFDD": [
+        {
+          "party": "LZS",
+          "meps": 1
+        }
+      ],
+      "NI": [
+        null
+      ]
+    },
+    {
+      "country": "Slovenia",
+      "EPP": [
+        {
+          "party": "SDS",
+          "meps": 3
+        },
+        {
+          "party": "NSi",
+          "meps": 1
+        },
+        {
+          "party": "SLS",
+          "meps": 1
+        }
+      ],
+      "SD": [
+        {
+          "party": "SD",
+          "meps": 1
+        }
+      ],
+      "ECR": [
+        null
+      ],
+      "ALDE": [
+        {
+          "party": "DeSUS",
+          "meps": 1
+        }
+      ],
+      "GUE_NGL": [
+        null
+      ],
+      "G_EFA": [
+        {
+          "party": "Verjamem",
+          "meps": 1
+        }
+      ],
+      "EFDD": [
+        null
+      ],
+      "NI": [
+        null
+      ]
+    },
+    {
+      "country": "Cyprus",
+      "EPP": [
+        {
+          "party": "DISY",
+          "meps": 2
+        }
+      ],
+      "SD": [
+        {
+          "party": "EDEK",
+          "meps": 1
+        },
+        {
+          "party": "DIKO",
+          "meps": 1
+        }
+      ],
+      "ECR": [
+        null
+      ],
+      "ALDE": [
+        null
+      ],
+      "GUE_NGL": [
+        {
+          "party": "AKEL",
+          "meps": 2
+        }
+      ],
+      "G_EFA": [
+        null
+      ],
+      "EFDD": [
+        null
+      ],
+      "NI": [
+        null
+      ]
+    },
+    {
+      "country": "Estonia",
+      "EPP": [
+        {
+          "party": "IRL",
+          "meps": 1
+        }
+      ],
+      "SD": [
+        {
+          "party": "SDE",
+          "meps": 1
+        }
+      ],
+      "ECR": [
+        null
+      ],
+      "ALDE": [
+        {
+          "party": "RE",
+          "meps": 2
+        },
+        {
+          "party": "KE",
+          "meps": 1
+        }
+      ],
+      "GUE_NGL": [
+        null
+      ],
+      "G_EFA": [
+        {
+          "party": "Tarand",
+          "meps": 1
+        }
+      ],
+      "EFDD": [
+        null
+      ],
+      "NI": [
+        null
+      ]
+    },
+    {
+      "country": "Luxembourg",
+      "EPP": [
+        {
+          "party": "CSV",
+          "meps": 3
+        }
+      ],
+      "SD": [
+        {
+          "party": "LSAP",
+          "meps": 1
+        }
+      ],
+      "ECR": [
+        null
+      ],
+      "ALDE": [
+        {
+          "party": "DP",
+          "meps": 1
+        }
+      ],
+      "GUE_NGL": [
+        null
+      ],
+      "G_EFA": [
+        {
+          "party": "Gréng",
+          "meps": 1
+        }
+      ],
+      "EFDD": [
+        null
+      ],
+      "NI": [
+        null
+      ]
+    },
+    {
+      "country": "Malta",
+      "EPP": [
+        {
+          "party": "PN",
+          "meps": 3
+        }
+      ],
+      "SD": [
+        {
+          "party": "PL",
+          "meps": 3
+        }
+      ],
+      "ECR": [
+        null
+      ],
+      "ALDE": [
+        null
+      ],
+      "GUE_NGL": [
+        null
+      ],
+      "G_EFA": [
+        null
+      ],
+      "EFDD": [
+        null
+      ],
+      "NI": [
+        null
+      ]
+    },
+    {
+      "country": "Italy",
+      "EPP": [
+        {
+          "party": "FI",
+          "meps": 13
+        },
+        {
+          "party": "NCD",
+          "meps": 2
+        },
+        {
+          "party": "UDC",
+          "meps": 1
+        },
+        {
+          "party": "SVP",
+          "meps": 1
+        }
+      ],
+      "SD": [
+        {
+          "party": "PD",
+          "meps": 31
+        }
+      ],
+      "ECR": [
+        null
+      ],
+      "ALDE": [
+        null
+      ],
+      "GUE_NGL": [
+        {
+          "party": "AET",
+          "meps": 3
+        }
+      ],
+      "G_EFA": [
+        null
+      ],
+      "EFDD": [
+        {
+          "party": "M5S",
+          "meps": 17
+        }
+      ],
+      "NI": [
+        {
+          "party": "LN",
+          "meps": 5
+        }
+      ]
+    },
+    {
+      "country": "IE03",
+      "EPP": [
+        {
+          "party": "FG",
+          "meps": 1
+        }
+      ],
+      "SD": [
+        {
+          "party": "Childers",
+          "meps": 1
+        }
+      ],
+      "ECR": [
+        null
+      ],
+      "ALDE": [
+        null
+      ],
+      "GUE_NGL": [
+        {
+          "party": "SF",
+          "meps": 1
+        }
+      ],
+      "G_EFA": [
+        null
+      ],
+      "EFDD": [
+        null
+      ],
+      "NI": [
+        null
+      ]
+    },
+    {
+      "country": "IE01",
+      "EPP": [
+        {
+          "party": "FG",
+          "meps": 1
+        }
+      ],
+      "SD": [
+        null
+      ],
+      "ECR": [
+        null
+      ],
+      "ALDE": [
+        {
+          "party": "Harkin",
+          "meps": 1
+        }
+      ],
+      "GUE_NGL": [
+        {
+          "party": "SF",
+          "meps": 1
+        },
+        {
+          "party": "Flanagan",
+          "meps": 1
+        }
+      ],
+      "G_EFA": [
+        null
+      ],
+      "EFDD": [
+        null
+      ],
+      "NI": [
+        null
+      ]
+    },
+    {
+      "country": "IE02",
+      "EPP": [
+        {
+          "party": "FG",
+          "meps": 2
+        }
+      ],
+      "SD": [
+        null
+      ],
+      "ECR": [
+        {
+          "party": "FF/Crowley",
+          "meps": 1
+        }
+      ],
+      "ALDE": [
+        null
+      ],
+      "GUE_NGL": [
+        {
+          "party": "SF",
+          "meps": 1
+        }
+      ],
+      "G_EFA": [
+        null
+      ],
+      "EFDD": [
+        null
+      ],
+      "NI": [
+        null
+      ]
+    },
+    {
+      "country": "BE1",
+      "EPP": [
+        {
+          "party": "CDH",
+          "meps": 1
+        }
+      ],
+      "SD": [
+        {
+          "party": "PS",
+          "meps": 3
+        }
+      ],
+      "ECR": [
+        null
+      ],
+      "ALDE": [
+        {
+          "party": "MR",
+          "meps": 3
+        }
+      ],
+      "GUE_NGL": [
+        null
+      ],
+      "G_EFA": [
+        {
+          "party": "Ecolo",
+          "meps": 1
+        }
+      ],
+      "EFDD": [
+        null
+      ],
+      "NI": [
+        null
+      ]
+    },
+    {
+      "country": "BE2",
+      "EPP": [
+        {
+          "party": "CSP",
+          "meps": 1
+        }
+      ],
+      "SD": [
+        null
+      ],
+      "ECR": [
+        null
+      ],
+      "ALDE": [
+        null
+      ],
+      "GUE_NGL": [
+        null
+      ],
+      "G_EFA": [
+        null
+      ],
+      "EFDD": [
+        null
+      ],
+      "NI": [
+        null
+      ]
+    },
+    {
+      "country": "BE3",
+      "EPP": [
+        {
+          "party": "CD&V",
+          "meps": 2
+        }
+      ],
+      "SD": [
+        {
+          "party": "SPA",
+          "meps": 1
+        }
+      ],
+      "ECR": [
+        {
+          "party": "N-VA",
+          "meps": 4
+        }
+      ],
+      "ALDE": [
+        {
+          "party": "Open VLD",
+          "meps": 3
+        }
+      ],
+      "GUE_NGL": [
+        null
+      ],
+      "G_EFA": [
+        {
+          "party": "Groen",
+          "meps": 1
+        }
+      ],
+      "EFDD": [
+        null
+      ],
+      "NI": [
+        {
+          "party": "VB",
+          "meps": 1
+        }
+      ]
+    },
+    {
+      "country": "FR3",
+      "EPP": [
+        {
+          "party": "UMP",
+          "meps": 2
+        }
+      ],
+      "SD": [
+        {
+          "party": "PS",
+          "meps": 1
+        }
+      ],
+      "ECR": [
+        null
+      ],
+      "ALDE": [
+        {
+          "party": "MoDem/UDI",
+          "meps": 1
+        }
+      ],
+      "GUE_NGL": [
+        null
+      ],
+      "G_EFA": [
+        {
+          "party": "EE",
+          "meps": 1
+        },
+        null
+      ],
+      "EFDD": [
+        null
+      ],
+      "NI": [
+        {
+          "party": "FN",
+          "meps": 5
+        }
+      ]
+    },
+    {
+      "country": "FR5",
+      "EPP": [
+        {
+          "party": "UMP",
+          "meps": 3
+        }
+      ],
+      "SD": [
+        {
+          "party": "PS",
+          "meps": 2
+        }
+      ],
+      "ECR": [
+        null
+      ],
+      "ALDE": [
+        {
+          "party": "MoDem/UDI",
+          "meps": 1
+        }
+      ],
+      "GUE_NGL": [
+        null
+      ],
+      "G_EFA": [
+        {
+          "party": "EE",
+          "meps": 1
+        },
+        null
+      ],
+      "EFDD": [
+        {
+          "party": "Bergeron",
+          "meps": 1
+        },
+        null
+      ],
+      "NI": [
+        {
+          "party": "FN",
+          "meps": 1
+        }
+      ]
+    },
+    {
+      "country": "FR4",
+      "EPP": [
+        {
+          "party": "UMP",
+          "meps": 3
+        }
+      ],
+      "SD": [
+        {
+          "party": "PS",
+          "meps": 1
+        }
+      ],
+      "ECR": [
+        null
+      ],
+      "ALDE": [
+        {
+          "party": "MoDem/UDI",
+          "meps": 1
+        }
+      ],
+      "GUE_NGL": [
+        null
+      ],
+      "G_EFA": [
+        null
+      ],
+      "EFDD": [
+        null
+      ],
+      "NI": [
+        {
+          "party": "FN",
+          "meps": 4
+        }
+      ]
+    },
+    {
+      "country": "FR7",
+      "EPP": [
+        {
+          "party": "UMP",
+          "meps": 3
+        }
+      ],
+      "SD": [
+        {
+          "party": "PS",
+          "meps": 2
+        }
+      ],
+      "ECR": [
+        null
+      ],
+      "ALDE": [
+        {
+          "party": "MoDem/UDI",
+          "meps": 1
+        }
+      ],
+      "GUE_NGL": [
+        {
+          "party": "FG",
+          "meps": 1
+        }
+      ],
+      "G_EFA": [
+        {
+          "party": "EE",
+          "meps": 1
+        },
+        null
+      ],
+      "EFDD": [
+        null
+      ],
+      "NI": [
+        {
+          "party": "FN",
+          "meps": 5
+        }
+      ]
+    },
+    {
+      "country": "FR6",
+      "EPP": [
+        {
+          "party": "UMP",
+          "meps": 2
+        }
+      ],
+      "SD": [
+        {
+          "party": "PS",
+          "meps": 2
+        }
+      ],
+      "ECR": [
+        null
+      ],
+      "ALDE": [
+        {
+          "party": "MoDem/UDI",
+          "meps": 1
+        }
+      ],
+      "GUE_NGL": [
+        {
+          "party": "FG",
+          "meps": 1
+        }
+      ],
+      "G_EFA": [
+        {
+          "party": "EE",
+          "meps": 1
+        },
+        null
+      ],
+      "EFDD": [
+        null
+      ],
+      "NI": [
+        {
+          "party": "FN",
+          "meps": 3
+        }
+      ]
+    },
+    {
+      "country": "FR2",
+      "EPP": [
+        {
+          "party": "UMP",
+          "meps": 2
+        }
+      ],
+      "SD": [
+        {
+          "party": "PS",
+          "meps": 1
+        }
+      ],
+      "ECR": [
+        null
+      ],
+      "ALDE": [
+        null
+      ],
+      "GUE_NGL": [
+        null
+      ],
+      "G_EFA": [
+        null
+      ],
+      "EFDD": [
+        null
+      ],
+      "NI": [
+        {
+          "party": "FN",
+          "meps": 2
+        }
+      ]
+    },
+    {
+      "country": "FR1",
+      "EPP": [
+        {
+          "party": "UMP",
+          "meps": 4
+        }
+      ],
+      "SD": [
+        {
+          "party": "PS",
+          "meps": 3
+        }
+      ],
+      "ECR": [
+        null
+      ],
+      "ALDE": [
+        {
+          "party": "MoDem/UDI",
+          "meps": 2
+        }
+      ],
+      "GUE_NGL": [
+        {
+          "party": "FG",
+          "meps": 1
+        }
+      ],
+      "G_EFA": [
+        {
+          "party": "EE",
+          "meps": 2
+        },
+        null
+      ],
+      "EFDD": [
+        null
+      ],
+      "NI": [
+        {
+          "party": "FN",
+          "meps": 3
+        }
+      ]
+    },
+    {
+      "country": "FRA",
+      "EPP": [
+        {
+          "party": "UMP",
+          "meps": 1
+        }
+      ],
+      "SD": [
+        {
+          "party": "PS",
+          "meps": 1
+        }
+      ],
+      "ECR": [
+        null
+      ],
+      "ALDE": [
+        null
+      ],
+      "GUE_NGL": [
+        {
+          "party": "UOM",
+          "meps": 1
+        }
+      ],
+      "G_EFA": [
+        null
+      ],
+      "EFDD": [
+        null
+      ],
+      "NI": [
+        null
+      ]
+    },
+    {
+      "country": "UKI",
+      "EPP": [
+        null
+      ],
+      "SD": [
+        {
+          "party": "Lab",
+          "meps": 4
+        }
+      ],
+      "ECR": [
+        {
+          "party": "Cons",
+          "meps": 2
+        }
+      ],
+      "ALDE": [
+        null
+      ],
+      "GUE_NGL": [
+        null
+      ],
+      "G_EFA": [
+        {
+          "party": "Green",
+          "meps": 1
+        },
+        {
+          "meps": 0
+        }
+      ],
+      "EFDD": [
+        {
+          "party": "UKIP",
+          "meps": 1
+        },
+        null
+      ],
+      "NI": [
+        null
+      ]
+    },
+    {
+      "country": "UKJ",
+      "EPP": [
+        null
+      ],
+      "SD": [
+        {
+          "party": "Lab",
+          "meps": 1
+        }
+      ],
+      "ECR": [
+        {
+          "party": "Cons",
+          "meps": 3
+        }
+      ],
+      "ALDE": [
+        {
+          "party": "LibDem",
+          "meps": 1
+        },
+        null
+      ],
+      "GUE_NGL": [
+        null
+      ],
+      "G_EFA": [
+        {
+          "party": "Green",
+          "meps": 1
+        },
+        {
+          "meps": 0
+        }
+      ],
+      "EFDD": [
+        {
+          "party": "UKIP",
+          "meps": 4
+        },
+        null
+      ],
+      "NI": [
+        null
+      ]
+    },
+    {
+      "country": "UKK",
+      "EPP": [
+        null
+      ],
+      "SD": [
+        {
+          "party": "Lab",
+          "meps": 1
+        }
+      ],
+      "ECR": [
+        {
+          "party": "Cons",
+          "meps": 2
+        }
+      ],
+      "ALDE": [
+        null
+      ],
+      "GUE_NGL": [
+        null
+      ],
+      "G_EFA": [
+        {
+          "party": "Green",
+          "meps": 1
+        },
+        {
+          "meps": 0
+        }
+      ],
+      "EFDD": [
+        {
+          "party": "UKIP",
+          "meps": 2
+        },
+        null
+      ],
+      "NI": [
+        null
+      ]
+    },
+    {
+      "country": "UKG",
+      "EPP": [
+        null
+      ],
+      "SD": [
+        {
+          "party": "Lab",
+          "meps": 2
+        }
+      ],
+      "ECR": [
+        {
+          "party": "Cons",
+          "meps": 2
+        }
+      ],
+      "ALDE": [
+        null
+      ],
+      "GUE_NGL": [
+        null
+      ],
+      "G_EFA": [
+        null
+      ],
+      "EFDD": [
+        {
+          "party": "UKIP",
+          "meps": 3
+        },
+        null
+      ],
+      "NI": [
+        null
+      ]
+    },
+    {
+      "country": "UKD",
+      "EPP": [
+        null
+      ],
+      "SD": [
+        {
+          "party": "Lab",
+          "meps": 3
+        }
+      ],
+      "ECR": [
+        {
+          "party": "Cons",
+          "meps": 2
+        }
+      ],
+      "ALDE": [
+        null
+      ],
+      "GUE_NGL": [
+        null
+      ],
+      "G_EFA": [
+        null
+      ],
+      "EFDD": [
+        {
+          "party": "UKIP",
+          "meps": 3
+        },
+        null
+      ],
+      "NI": [
+        null
+      ]
+    },
+    {
+      "country": "UKC",
+      "EPP": [
+        null
+      ],
+      "SD": [
+        {
+          "party": "Lab",
+          "meps": 2
+        }
+      ],
+      "ECR": [
+        null
+      ],
+      "ALDE": [
+        null
+      ],
+      "GUE_NGL": [
+        null
+      ],
+      "G_EFA": [
+        null
+      ],
+      "EFDD": [
+        {
+          "party": "UKIP",
+          "meps": 1
+        },
+        null
+      ],
+      "NI": [
+        null
+      ]
+    },
+    {
+      "country": "UKE",
+      "EPP": [
+        null
+      ],
+      "SD": [
+        {
+          "party": "Lab",
+          "meps": 2
+        }
+      ],
+      "ECR": [
+        {
+          "party": "Cons",
+          "meps": 1
+        }
+      ],
+      "ALDE": [
+        null
+      ],
+      "GUE_NGL": [
+        null
+      ],
+      "G_EFA": [
+        null
+      ],
+      "EFDD": [
+        {
+          "party": "UKIP",
+          "meps": 3
+        },
+        null
+      ],
+      "NI": [
+        null
+      ]
+    },
+    {
+      "country": "UKF",
+      "EPP": [
+        null
+      ],
+      "SD": [
+        {
+          "party": "Lab",
+          "meps": 1
+        }
+      ],
+      "ECR": [
+        {
+          "party": "Cons",
+          "meps": 2
+        }
+      ],
+      "ALDE": [
+        null
+      ],
+      "GUE_NGL": [
+        null
+      ],
+      "G_EFA": [
+        null
+      ],
+      "EFDD": [
+        {
+          "party": "UKIP",
+          "meps": 2
+        },
+        null
+      ],
+      "NI": [
+        null
+      ]
+    },
+    {
+      "country": "UKH",
+      "EPP": [
+        null
+      ],
+      "SD": [
+        {
+          "party": "Lab",
+          "meps": 1
+        }
+      ],
+      "ECR": [
+        {
+          "party": "Cons",
+          "meps": 3
+        }
+      ],
+      "ALDE": [
+        null
+      ],
+      "GUE_NGL": [
+        null
+      ],
+      "G_EFA": [
+        null
+      ],
+      "EFDD": [
+        {
+          "party": "UKIP",
+          "meps": 3
+        },
+        null
+      ],
+      "NI": [
+        null
+      ]
+    },
+    {
+      "country": "UKN",
+      "EPP": [
+        null
+      ],
+      "SD": [
+        null
+      ],
+      "ECR": [
+        {
+          "party": "UUP",
+          "meps": 1
+        }
+      ],
+      "ALDE": [
+        null
+      ],
+      "GUE_NGL": [
+        {
+          "party": "SF",
+          "meps": 1
+        },
+        null
+      ],
+      "G_EFA": [
+        null
+      ],
+      "EFDD": [
+        null
+      ],
+      "NI": [
+        {
+          "party": "DUP",
+          "meps": 1
+        }
+      ]
+    },
+    {
+      "country": "UKM",
+      "EPP": [
+        null
+      ],
+      "SD": [
+        {
+          "party": "Lab",
+          "meps": 2
+        }
+      ],
+      "ECR": [
+        {
+          "party": "Cons",
+          "meps": 1
+        }
+      ],
+      "ALDE": [
+        null
+      ],
+      "GUE_NGL": [
+        null
+      ],
+      "G_EFA": [
+        {
+          "party": "SNP",
+          "meps": 2
+        }
+      ],
+      "EFDD": [
+        {
+          "party": "UKIP",
+          "meps": 1
+        },
+        null
+      ],
+      "NI": [
+        null
+      ]
+    },
+    {
+      "country": "UKL",
+      "EPP": [
+        null
+      ],
+      "SD": [
+        {
+          "party": "Lab",
+          "meps": 1
+        }
+      ],
+      "ECR": [
+        {
+          "party": "Cons",
+          "meps": 1
+        }
+      ],
+      "ALDE": [
+        null
+      ],
+      "GUE_NGL": [
+        null
+      ],
+      "G_EFA": [
+        {
+          "party": "PC",
+          "meps": 1
+        }
+      ],
+      "EFDD": [
+        {
+          "party": "UKIP",
+          "meps": 1
+        },
+        null
+      ],
+      "NI": [
+        null
+      ]
+    }
+  ]
+}
