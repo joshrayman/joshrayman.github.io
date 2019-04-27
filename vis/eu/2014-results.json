@@ -1225,6 +1225,7 @@
     },
     {
       "country": "IE03",
+      "countryCode": "IE",
       "EPP": [
         {
           "party": "FG",
@@ -1261,6 +1262,7 @@
     },
     {
       "country": "IE01",
+      "countryCode": "IE",
       "EPP": [
         {
           "party": "FG",
@@ -1301,6 +1303,7 @@
     },
     {
       "country": "IE02",
+      "countryCode": "IE",
       "EPP": [
         {
           "party": "FG",
@@ -1337,6 +1340,7 @@
     },
     {
       "country": "BE1",
+      "countryCode": "BE",
       "EPP": [
         {
           "party": "CDH",
@@ -1376,6 +1380,7 @@
     },
     {
       "country": "BE2",
+      "countryCode": "BE",
       "EPP": [
         {
           "party": "CSP",
@@ -1406,6 +1411,7 @@
     },
     {
       "country": "BE3",
+      "countryCode": "BE",
       "EPP": [
         {
           "party": "CD&V",
@@ -1451,6 +1457,7 @@
     },
     {
       "country": "FR3",
+      "countryCode": "FR",
       "EPP": [
         {
           "party": "UMP",
@@ -1494,6 +1501,7 @@
     },
     {
       "country": "FR5",
+      "countryCode": "FR",
       "EPP": [
         {
           "party": "UMP",
@@ -1541,6 +1549,7 @@
     },
     {
       "country": "FR4",
+      "countryCode": "FR",
       "EPP": [
         {
           "party": "UMP",
@@ -1580,6 +1589,7 @@
     },
     {
       "country": "FR7",
+      "countryCode": "FR",
       "EPP": [
         {
           "party": "UMP",
@@ -1626,6 +1636,7 @@
     },
     {
       "country": "FR6",
+      "countryCode": "FR",
       "EPP": [
         {
           "party": "UMP",
@@ -1672,6 +1683,7 @@
     },
     {
       "country": "FR2",
+      "countryCode": "FR",
       "EPP": [
         {
           "party": "UMP",
@@ -1708,6 +1720,7 @@
     },
     {
       "country": "FR1",
+      "countryCode": "FR",
       "EPP": [
         {
           "party": "UMP",
@@ -1754,6 +1767,7 @@
     },
     {
       "country": "FRA",
+      "countryCode": "FR",
       "EPP": [
         {
           "party": "UMP",
@@ -1790,6 +1804,7 @@
     },
     {
       "country": "UKI",
+      "countryCode": "UK",
       "EPP": [
         null
       ],
@@ -1833,6 +1848,7 @@
     },
     {
       "country": "UKJ",
+      "countryCode": "UK",
       "EPP": [
         null
       ],
@@ -1880,6 +1896,7 @@
     },
     {
       "country": "UKK",
+      "countryCode": "UK",
       "EPP": [
         null
       ],
@@ -1923,6 +1940,7 @@
     },
     {
       "country": "UKG",
+      "countryCode": "UK",
       "EPP": [
         null
       ],
@@ -1960,6 +1978,7 @@
     },
     {
       "country": "UKD",
+      "countryCode": "UK",
       "EPP": [
         null
       ],
@@ -1997,6 +2016,7 @@
     },
     {
       "country": "UKC",
+      "countryCode": "UK",
       "EPP": [
         null
       ],
@@ -2031,6 +2051,7 @@
     },
     {
       "country": "UKE",
+      "countryCode": "UK",
       "EPP": [
         null
       ],
@@ -2068,6 +2089,7 @@
     },
     {
       "country": "UKF",
+      "countryCode": "UK",
       "EPP": [
         null
       ],
@@ -2105,6 +2127,7 @@
     },
     {
       "country": "UKH",
+      "countryCode": "UK",
       "EPP": [
         null
       ],
@@ -2142,6 +2165,7 @@
     },
     {
       "country": "UKN",
+      "countryCode": "UK",
       "EPP": [
         null
       ],
@@ -2179,6 +2203,7 @@
     },
     {
       "country": "UKM",
+      "countryCode": "UK",
       "EPP": [
         null
       ],
@@ -2219,6 +2244,7 @@
     },
     {
       "country": "UKL",
+      "countryCode": "UK",
       "EPP": [
         null
       ],
