@@ -3,6 +3,11 @@
 	#Layer_2 rect {fill:none !important;stroke:none;}
 	#Layer_2 path {fill:none !important;stroke:none;}
 	#Layer_2 polygon {fill:none !important;stroke:none;}
+	
+  path { 
+	fill: #fff !important; 
+	stroke: #ccc !important; 
+}
 </style>
 <g class="transformBox">
 		<path id="ID1" d="M50,145v1V145z M45,144l1,1h-1v1l-1-1v-1H45z M49,144h1H49z M35,144h1l-1,1h-1v-1H35z M50,144v-1
