@@ -4,6 +4,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Josh Rayman, graphics/data vis developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <style>
       /*
         $color1: rgba(35, 240, 199, 1);
@@ -12,8 +14,8 @@
         $color4: rgba(100, 87, 166, 1);
         $color5: rgba(255, 227, 71, 1);
       */
-      html {
-        font-family: sans-serif;
+      html {    
+        font-family: 'Montserrat', helvetica, arial, sans-serif;
         background: rgba(100, 87, 166, 1);
       }
 
@@ -43,7 +45,7 @@
 
       span,
       li {
-        background: #F4F4F4;
+        background: #fff;
         padding: 4px;
       }
 
@@ -58,7 +60,7 @@
       }
 
       p {
-        background: #F4F4F4;
+        background: #fff;
         max-width: 600px;
         padding: 4px;
         line-height: 1.5;
@@ -79,7 +81,7 @@
         border-color: rgba(100, 87, 166, 1);
         border-left: 0;
         border-right: 0;
-        background: #f4f4f4;
+        background: #fff;
       }
 
       .section:nth-of-type(2n) {
@@ -87,7 +89,7 @@
         border-color: rgba(239, 118, 122, 1);
         border-left: 0;
         border-right: 0;
-        background: #f4f4f4;
+        background: #fff;
       }
 
       .content {
@@ -100,15 +102,19 @@
       img {
         width: 85%;
         max-width: 550px;
-        background: #f4f4f4;
         margin: 20px;
         display: block;
       }
 
+      .pictures {
+        display: flex;
+        align-content: center;
+      }
+
       .pictures img {
-        max-width: 40%;
         display: inline-block;
         vertical-align: top;
+        object-fit: contain;
       }
 
       @media (max-width: 600px) {
@@ -124,7 +130,7 @@
       #contact a {
         padding: 0 4px;
         margin: 0 8px;
-        background: #f4f4f4;
+        background: #fff;
       }
 
       #contact p {
@@ -138,14 +144,25 @@
       .top {
         background-color: rgba(100, 87, 166, 1);
       }
+
+      .three-img {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .three-img img {
+        max-width: 40%;
+        object-fit: contain;
+        min-width: 300px;
+        flex: 1;
+      }
     </style>
   </head>
   <body>
     <div class="container">
     <div class="top">
-    <h1><span>Portfolio</span></h1>
-    <h2><span>Josh Rayman</span></h2>
-    <h2><span>Visual Journalism</span></h2>
+    <h1><span>Josh Rayman</span></h2>
+    <h2><span>Portfolio - Visual Journalism</span></h2>
     <header id="contact">
         <p>I make elections graphics and other stuff for BBC World Service.</p>
         <p>
@@ -162,26 +179,29 @@
         <h3><span>Data analysis, explainer content and results dashboard</span></h3>
         <div class="content">
           <div class="pictures">
-            <img src="assets/afghan2.png">
-            <img src="assets/afghan3.png">
+            <img src="assets/afghan1.png">
           </div>
           <p><a href="http://www.bbc.com/persian/resources/idt-d105b765-826c-4dfa-8083-81489802d692">Interactive data dashboard</a> for pre-election coverage, and updated with results as they arrived. Adapted into a touchscreen TV segment that was broadcast on BBC Persian and <a href="https://www.youtube.com/watch?v=bl7iJrcN_Sc">BBC Pashto</a>. Created original data analysis of the 2010 and 2018 elections, and built graphics explaining the <a href="assets/afghan4.jpg">electoral system</a>.</p>
           <p>Article: <a href="https://source.opennews.org/articles/how-we-visualized-election-no-political-parties/">How We Visualized an Election with No Political Parties</a> (OpenNews Source)</p>
           <p>Role: data, design, development</p>
-          <img src="assets/afghan.jpg">
+          <div class="three-img">
+            <img src="assets/afghan2.png">
+            <img src="assets/afghan3.png">
+            <img src="assets/afghan.jpg">
+          </div>
         </div>
       </div>
-    </div>
       <div class="section">
         <h2><span>2018 Turkish election</span></h2>
         <h3><span>Interactive explainer and results dashboard</span></h3>
+        <img src="assets/turk1.png">
         <div class="content">
+          <p>A series of interactive pieces for the Turkish service before and after the snap Presidential/Parlimentary elections in June 2018. Included: a <a href="https://www.bbc.com/turkce/haberler-turkiye-44602559">results dashboard</a> in the week after the election, an <a href="https://www.bbc.com/turkce/haberler-turkiye-44532301">interactive explainer</a> of the D'Hondt seat distribution system, a bite-sized guide to <a href="https://www.bbc.com/turkce/haberler-turkiye-44334035">party manifestos</a>, and a hex map of the 2018 results.</p>
+          <p>Role: research, data, development</p>
           <div class="pictures">
             <img class="gif" src="assets/pr.gif">
             <img src="assets/turk4.png">
           </div>
-          <p>A series of interactive pieces for the Turkish service before and after the snap Presidential/Parlimentary elections in June 2018. Included: a <a href="https://www.bbc.com/turkce/haberler-turkiye-44602559">results dashboard</a> in the week after the election, an <a href="https://www.bbc.com/turkce/haberler-turkiye-44532301">interactive explainer</a> of the D'Hondt seat distribution system, a bite-sized guide to <a href="https://www.bbc.com/turkce/haberler-turkiye-44334035">party manifestos</a>, and a hex map of the 2018 results.</p>
-          <p>Role: research, data, development</p>
       </div>
     </div>
     <div class="section">
@@ -189,24 +209,37 @@
       <h3><span>3D Model/UX Project</span></h3>
       <div class="content">
         <div class="pictures">
-        <img src="https://joshrayman.github.io/img/tunnels.jpg">
+        <img src="assets/is.png">
         </div>
         <p>An <a href="https://www.bbc.co.uk/news/resources/idt-5c6bc253-d161-41f4-8501-4e7cacf047d5">explorable 3D model</a> scanned from an excavated tunnel. User interface was built over the top of a third party 3D tool, and we enhanced how the camera movement worked.</p>
         <p>Bronze at the <a href="https://drive.google.com/file/d/1eZjqf6UHzuVC7_N1EKDuexzV1IC0lQif/view">2019 Malofiej awards</a></p>
+        <p><a href="http://www.bbc.com/arabic/resources/idt-20857df2-d4b0-4ece-9dcc-54896127aa79?ocid=socialflow_twitter">Arabic</a> / <a href="https://www.bbc.co.uk/news/resources/idt-5c6bc253-d161-41f4-8501-4e7cacf047d5">English</a></p>
         <p>Role: design, development</p>
     </div>
   </div>
-
+    
     <div class="section">
       <h2><span>Experiments: EU Hex Map</span></h2>
       <div class="content">
-          <img src="assets/eu.png">
+          <img src="assets/eu-2.png">
           <p>A map and Sankey diagram showing the coalitions of the 2014 MEPs, filtered by country.</p>
 
           <p><a href="https://observablehq.com/@joshrayman/eu-parliament-hex-map">https://observablehq.com/@joshrayman/eu-parliament-hex-map</a></p>
           
           <p>Role: data, design, development</p>
           
+      </div>
+    </div>
+    <div class="section">
+      <h2><span>Experiments: UK General Election Results Explorer</span></h2>
+      <div class="content">
+          <img src="assets/uk-gen.png">
+        <p>Prototype visualisation of UK elections results 2005-2017.</p>
+
+        <p><a href="https://observablehq.com/@joshrayman/uk-general-election-results-by-constituency">https://observablehq.com/@joshrayman/uk-general-election-results-by-constituency</a></p>
+        
+        <p>Role: data, design, development</p>
+
       </div>
     </div>
     <div class="section">
@@ -225,14 +258,17 @@
       <div class="section">
         <h2><span>Other Work</span></h2>
         <div class="content">
-          <h3><span>Politics</span></h3>
+          <h2><span>Politics</span></h2>
+          <img src="assets/us-prop.png">
           <ul>
+              <li><a href="https://joshrayman.github.io/vis/what-if/proportional/index.html">What If: The US Electoral College system was proportional?</a></li>
               <li><a href="https://observablehq.com/@joshrayman/what-if-the-uk-calculated-meps-at-a-country-level">What If: the UK calculated MEPs at a country level?</a></li>
               <li><a href="https://observablehq.com/@joshrayman/what-if-the-uk-used-thailands-mixed-electoral-system">What If: the UK used Thailand's mixed electoral system?</a></li>
-              <li><a href="https://joshrayman.github.io/vis/what-if/proportional/index.html">What If: The US Electoral College system was proportional?</a></li>
           </ul>
-          <h3><span>Motorsport</span></h3>
+          <h2><span>Motorsport</span></h2>
+          <img src="assets/f1-pit.png">
           <ul>
+            <li><a href="https://observablehq.com/d/9accc90d34dc6806">British Grand Prix Pitstops</a></li>
             <li><a href="https://observablehq.com/@joshrayman/formula-e-gen-1-vs-gen-2-lap-times">Comparing the new Formula E car to the previous generation</a></li>
             <li><a href="https://observablehq.com/@joshrayman/azerbaijan-grand-prix-graphics">Azerbaijan Grand Prix graphics</a></li>
             <li><a href="https://twitter.com/joshrayman/status/1130954694937993219">The Triple Crown</a></li>
