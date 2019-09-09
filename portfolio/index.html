@@ -76,7 +76,7 @@
         }
       }
 
-      .section:nth-of-type(2n + 1) {
+      .section:nth-of-type(2n) {
         border: solid 25px;
         border-color: rgba(100, 87, 166, 1);
         border-left: 0;
@@ -84,12 +84,16 @@
         background: #fff;
       }
 
-      .section:nth-of-type(2n) {
+      .section:nth-of-type(2n + 1) {
         border: solid 25px;
         border-color: rgba(239, 118, 122, 1);
         border-left: 0;
         border-right: 0;
         background: #fff;
+      }
+      
+      .container .section {
+        border-color: rgb(239, 118, 122);
       }
 
       .content {
@@ -192,11 +196,22 @@
         </div>
       </div>
       <div class="section">
+        <h2><span>The air you breathe</span></h2>
+        <h3><span>Scrolly animations and interactive map.</span></h3>
+        <div class="content">
+          <div class="pictures">
+            <img src="assets/air3.gif">
+          </div>
+          <p><a href="https://www.bbc.com/turkce/resources/idt-c9b6079c-4dcf-4bed-bf4e-3ce395991aea">Scrolly explainer</a> about air pollution and an interactive map exploring Turkish pollution levels.</p>
+          <p>Role: development</p>
+      </div>
+    </div>
+      <div class="section">
         <h2><span>2018 Turkish election</span></h2>
         <h3><span>Interactive explainer and results dashboard</span></h3>
         <img src="assets/turk1.png">
         <div class="content">
-          <p>A series of interactive pieces for the Turkish service before and after the snap Presidential/Parlimentary elections in June 2018. Included: a <a href="https://www.bbc.com/turkce/haberler-turkiye-44602559">results dashboard</a> in the week after the election, an <a href="https://www.bbc.com/turkce/haberler-turkiye-44532301">interactive explainer</a> of the D'Hondt seat distribution system, a bite-sized guide to <a href="https://www.bbc.com/turkce/haberler-turkiye-44334035">party manifestos</a>, and a hex map of the 2018 results.</p>
+          <p>A series of interactive pieces for the Turkish service before and after the snap Presidential/Parliamentary elections in June 2018. Included: a <a href="https://www.bbc.com/turkce/haberler-turkiye-44602559">results dashboard</a> in the week after the election, an <a href="https://www.bbc.com/turkce/haberler-turkiye-44532301">interactive explainer</a> of the D'Hondt seat distribution system, a bite-sized guide to <a href="https://www.bbc.com/turkce/haberler-turkiye-44334035">party manifestos</a>, and a hex map of the 2018 results.</p>
           <p>Role: research, data, development</p>
           <div class="pictures">
             <img class="gif" src="assets/pr.gif">
