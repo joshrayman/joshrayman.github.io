@@ -12,7 +12,8 @@
 */
 html {    
 	font-family: 'Montserrat', helvetica, arial, sans-serif;
-	background: rgba(100, 87, 166, 1);
+	background: #fafafa;
+	color: rgba(100, 87, 166, 1);
 }
 
 body {
@@ -21,7 +22,7 @@ body {
 }
 
 h1, h2, h3 {
-	margin: 10px 20px;
+	margin: 5px 20px;
 	line-height: 1.5;
 }
 
@@ -32,7 +33,7 @@ a {
 a:focus,
 a:active,
 a:visited {
-	color: rgba(100, 87, 166, 1);
+	color: rgba(239, 118, 122, 1);
 }
 
 a:hover {
@@ -45,7 +46,7 @@ span {
 
 span,
 li {
-	background: #fff;
+	background: #fafafa;
 	padding: 4px;
 }
 
@@ -60,7 +61,7 @@ li {
 }
 
 p {
-	background: #fff;
+	background: #fafafa;
 	max-width: 600px;
 	padding: 4px;
 	line-height: 1.5;
@@ -76,19 +77,17 @@ p {
 }
 
 .section:nth-of-type(2n + 1) {
-	border: solid 25px;
+	border: solid 2px;
 	border-color: rgba(100, 87, 166, 1);
 	border-left: 0;
 	border-right: 0;
-	background: #fff;
+	background: #fafafa;
 }
 
 .section:nth-of-type(2n) {
-	border: solid 25px;
-	border-color: rgba(239, 118, 122, 1);
 	border-left: 0;
 	border-right: 0;
-	background: #fff;
+	background: #fafafa;
 }
 
 .content {
@@ -133,11 +132,11 @@ img {
 #contact a {
 	padding: 0 4px;
 	margin: 0 8px;
-	background: #fff;
+	background: #fafafa;
 }
 
 #contact p {
-	margin: 20px;
+	margin: 5px 20px;
 }
 
 img.gif {
@@ -145,7 +144,7 @@ img.gif {
 }
 
 .top {
-	background-color: rgba(100, 87, 166, 1);
+	/* background-color: rgba(100, 87, 166, 1); */
 }
 
 .three-img {
@@ -162,12 +161,12 @@ img.gif {
 }
 
 .nav {
-	padding: 1em;
+	padding: 0.25em;
 	font-size: 1.25em;
 	font-family: 'Montserrat', helvetica, arial, sans-serif;
-	-webkit-appearance: none;
-	border: 0.25em solid rgba(35, 240, 199, 1);
-	margin: 0 1em;
+	/* -webkit-appearance: none; */
+	/* border: 2px solid rgba(35, 240, 199, 1); */
+	margin: 0 0.5em;
 }
 
 @media (max-width: 600px) {
