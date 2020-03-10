@@ -114,6 +114,18 @@ img {
 	object-fit: contain;
 }
 
+.pictures img.tree-ring {
+	max-height: 700px;
+}
+
+.pictures-mb {
+	flex: 1 1 300px;
+}
+
+.pictures-mb img {
+	max-height: 200px;
+}
+
 @media (max-width: 600px) {
 	.pictures {
 		display: block;
@@ -121,7 +133,14 @@ img {
 
 	.pictures img {
 		max-width: 550px;
-		min-width: 250px;
+	}
+
+	.pictures-mb {
+		display: flex;
+	}
+
+	.pictures-mb img {
+		flex: 1 1 auto;
 	}
 }
 
